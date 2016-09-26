@@ -1,0 +1,15 @@
+[package]
+name = "vparty"
+version = "0.1.0"
+authors = ["Ycros <michael@kedzierski.id.au>"]
+
+[dependencies]
+vst2 = "*"
+glutin = { git = "https://github.com/ycros/glutin.git", branch = "child-windows" }
+conrod = "*"
+libc = "*"
+gl = "*"
+
+[lib]
+name= "vparty"
+crate-type = ["dylib"]
